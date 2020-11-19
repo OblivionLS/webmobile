@@ -18,7 +18,7 @@
   --markedText: rgb(110, 5, 5);
 
   --title: rgb(121, 252, 210);
-  --text: rgb(184, 218, 207);
+  --text: rgb(255, 255, 255);
   --something: rgb(47, 115, 66);
 
   --markerSize: 30px;
@@ -54,12 +54,13 @@
   position: relative;
   z-index: 10;
   /* font-weight: bold; */
-  color: var(--text);
+  color: #e1bc29;
+  transition: 0.2s all;
 }
 
 #nav a.router-link-exact-active {
   font-size: 2em;
-  color: #42b983;
+  color: #e1bc29;
 }
 
 .body {

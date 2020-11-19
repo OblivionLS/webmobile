@@ -412,7 +412,7 @@ max-width: 200px;
 #character {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: center left;
   height: 100%;
   width: 100%;
   background-size: 50%;
